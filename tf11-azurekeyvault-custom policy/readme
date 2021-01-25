@@ -1,0 +1,4 @@
+Below is custom policy to find an object id in Azure Key Vault. Add this policy in your PCS tenant as custom build policy and it will get triggered when you scan tf11_azurekeyvault.tf terraform template. 
+
+
+$.resource[*].azurerm_key_vault.*[*].*.access_policy exists and $.resource[*].azurerm_key_vault.*[*].*.access_policy[*].object_id == "11111111-2222-3333-4444-555555555555"
