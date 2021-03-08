@@ -1,0 +1,10 @@
+template_type: TF
+terraform_version: 0.12
+terraform_012_parameters:
+  - root_module: rich-value-types/network/
+  - root_module: for-expressions/
+  - root_module: datafactory/
+tags:
+  - 'Org: Panw'
+  - 'Team: ShiftLeft'
+  - 'Env: Dev'
